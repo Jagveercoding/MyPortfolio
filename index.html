@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Hello, I am <br>Jagveer Singh</h1>
+            <a href="./img/Jagveer_SDE.pdf"><button class="btn">Resume</button></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">About Me</h1>
+        <div id="pic">
+            <img src="./img/about.jpg" alt="">
+            <div id="intro">
+                <p>Hello, Myself Jagveer Singh. I am currently pursuing my graduation degree from Indian Institute of Technology(BHU) Varanasi in Mechanical Engineering. I have learnt different skills in programming. I have a good knowledge of C,C++ and Javascript. I have good grasp on HTML, CSS and Javascript.I also have good understanding of MERN stack. Apart from academics, I am also a member of Athletics Team.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="headings">Projects</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">Portfolio Website</h1>
+                <p>Created a fully responsive Portfolio website that shows my skills, projects and interests,etc using HTML, CSS and Javascript.</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Ecommerce Website</h1>
+                <p>Created a fully responsive Ecommerce website for sales and purchse of different clothes using HTML, CSS and Javascript.</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Game <br>Website</h1>
+                <p>Created a game website that generates a series of lights and sounds and requires user to repeat the sequence using HTML, CSS and Javascript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <div class="details">
+            <div class="contact-info">        
+                <p><i class="fa-regular fa-envelope"></i>jagveer.singh.2791@gmail.com</p>               
+                <p><i class="fa-sharp fa-solid fa-phone"></i>Contact No. 9821912437</p>               
+                <p><i class="fa-solid fa-location-dot"></i>IITBHU Vishwesvaraya Hostel</p> 
+            </div>
+            <div class="contact-form">
+                <form action="" class="form">
+                    <input type="text" name="name" class="input" placeholder="Enter your name">
+                    <input type="email" name="name" class="input" placeholder="Enter your email">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>      
+        </div>
+
+    </section>
+</body>
+</html>
